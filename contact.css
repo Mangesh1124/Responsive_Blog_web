@@ -1,0 +1,31 @@
+.contact-content {
+
+
+    height: 395px;
+    display: flex;
+    /* background-color: rgb(247, 247, 249); */
+    margin-top: 32px;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../image/type.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+    height: 80vh;
+
+
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    right: 24vw;
+}
